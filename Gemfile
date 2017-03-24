@@ -29,6 +29,7 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'rspec-rails'
+  gem 'rails-controller-testing'
   gem 'mongoid-rspec', github: 'mongoid-rspec/mongoid-rspec'
   gem 'shoulda-matchers', '~> 3.1'
 end
