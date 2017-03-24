@@ -1,4 +1,4 @@
-# App
+# Rails MongoDB App
 
 ## Installation
 
