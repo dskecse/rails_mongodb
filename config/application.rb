@@ -10,6 +10,8 @@ Bundler.require(*Rails.groups)
 
 module RailsMongodb
   class Application < Rails::Application
+    config.app_generators.scaffold_controller :responders_controller
+
     config.generators do |g|
       g.template_engine :slim
       g.assets = false
