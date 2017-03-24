@@ -5,3 +5,5 @@
     bin/setup
 
 ## Testing
+
+    rspec spec

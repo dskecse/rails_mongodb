@@ -25,6 +25,14 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+group :test do
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
+  gem 'mongoid-rspec', github: 'mongoid-rspec/mongoid-rspec'
+  gem 'shoulda-matchers', '~> 3.1'
+end
+
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
